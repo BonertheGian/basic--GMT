@@ -318,6 +318,24 @@ font-weight:600;
   display:flex;
   gap:3rem;
 }
+.offer{
+  background:var(--light); 
+  height:75vh;
+  }
+  .offer__text{
+      max-width: 65rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+  }
+  .offer__text h2{
+      font-size: 4rem;
+      color:var(--primary);
+      /* display:flex; */
+      gap:2rem;
+      text-align: left;
+      font-weight: 600;
+  }
 @media screen and (max-width:500px){
   .banner__text h1{
     font-size:4rem;
@@ -342,13 +360,31 @@ font-weight:600;
   }
 .banner__faq{
   width:100%;
-border-top-left-radius:0rem;
+  border-top-left-radius:0rem;
 }
 .banner__text ul.social{
   justify-content:center;
 }
+.offer{
+  background:var(--light); 
+  height:75vh;
+  }
+  .offer__text{
+      max-width: 65rem;
+      display: flex;
+      flex-direction: column;
+      gap: 4rem;
+  }
+  .offer__text h2{
+      font-size: 4rem;
+      color:var(--primary);
+      /* display:flex; */
+      gap:2rem;
+      text-align: left;
+      font-weight: 600;
+  }
 }
-
+ 
 
 /* REPEATABLE PATTERN */
 :root{
